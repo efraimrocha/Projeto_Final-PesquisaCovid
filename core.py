@@ -161,9 +161,6 @@ def eficaciaIdade():
     eficacia_i = 100 * (ai - bi) / ai
     eficacia_I =  int(round(eficacia_i, 2))
 
-    #print(eficacia_J, eficacia_A,eficacia_I)
-    print(aj,bj,'\n',aa,ba,'\n',ai,bi)
-    print(dados)
     return eficacia_J,eficacia_A,eficacia_I
     
 
