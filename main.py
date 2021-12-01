@@ -76,7 +76,6 @@ while True:
         print("*"*texto)
         print(f"JOVENS  {e_J}%.\nADULTOS {e_A}%.\nIDOSOS  {e_I}%.")
         print("*"*texto)
-        continue
 
     if select == 4:
         ef = c.eficaciaGenero()
@@ -88,6 +87,5 @@ while True:
         print("*"*texto)
         print(f"SEXO FEMININO {ef_F}%.\nSEXO MASCULINO {ef_M}%")
         print("*"*texto)
-        continue
     time.sleep(3)
 
